@@ -181,3 +181,7 @@ def homepage(request):
         <h3>Plz try other URL or Links!!!</h3>
     </center>''';
     return HttpResponse(htmldata);
+
+
+def gitview(req):
+    return HttpResponse("<h1>Hello from Git-view</h1><hr />");
